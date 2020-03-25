@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+   <div class="bck" style="background-image: url(img/background.png);">
+    <p class="color">Motorbike Color Changer </p>
+    <img id="motor" src="img/motor.png" alt="">
+    <h4 id="random">Generate Random Color</h4>
+    <button type="button" onclick="change()" id="button">Generate</button>
+    
+    <h4 id="specific">Generate Specific Color</h4>
+    <select  name="text" id="option">
+        <option value="color1">Blue</option>
+        <option value="color2">Red</option>
+        <option value="color3">Gray</option>
+        <option value="color4">Yellow</option>
+        <option value="color5">Orange</option>
+        <option value="color6">Black</option>
+         
+    </select>
+       <button type="button" onclick="Show()" class="show">Show</button>
+       <button type="button" onclick="Reset()" class="reset">Reset</button>
+
+
+<script src="change.js"></script>
+
+</div>
+</body>
+</html>

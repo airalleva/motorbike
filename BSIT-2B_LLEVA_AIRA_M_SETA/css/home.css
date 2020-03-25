@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    background-image: url(../img/PIC10.gif);
+    background-repeat: no-repeat;
+    background-size: 85rem;
+}
+
+.bck{
+    margin: 3rem;
+    margin-left: 23rem;
+    width: 35rem;
+    height: 30rem;
+    position: relative;
+    background-position: center center;
+    background-size: 100%;
+}
+.color{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    
+    
+}
+#motor{
+   
+    border-radius: 0px;
+    background: linear-gradient( 145deg, #ffffff, grey);
+    box-shadow: 20px 20px 60px grey, 
+    -20px -20px 60px grey;
+    text-align: center;
+    margin-right: 1rem;
+}
+#button{
+    width: 6rem;
+    height: 2rem;
+    margin: 15px;
+    left:15px;
+    bottom: 37px;
+    position: absolute;
+    background-color: purple;
+    color: white;
+}
+#random{
+    margin: 15px;
+    left:15px;
+    bottom: 70px;
+    position: absolute;
+    
+}
+#specific{
+    margin: 15px;
+    right:65px;
+    bottom: 70px;
+    position: absolute;
+}
+#option{
+    width: 8rem;
+    height: 2rem;
+    margin: 15px;
+    right:97px;
+    bottom: 37px;
+    position: absolute;
+}
+.show{
+    text-align: center;
+    width: 4rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    margin: 15px;
+    right:163px;
+    bottom: 2px;
+    position: absolute;
+
+}
+.reset{
+    text-align: center;
+    width: 4rem;
+    height: 2rem;
+    background-color: gray;
+    color: white;
+    margin: 15px;
+    right:97px;
+    bottom: 2px;
+    position: absolute;
+
+}
+
+.reset:hover{
+    
+    color: black;
+    background-color:burlywood;
+}
+.show:hover{
+    background-color: skyblue;
+    color: black;
+}
+#button:hover{
+    background-color: blueviolet;
+    color: black;
+}

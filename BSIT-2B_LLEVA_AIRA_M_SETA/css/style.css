@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ninja{
+    text-align: center;
+    width: 45rem;
+    height:20rem;
+}
+.design{
+    font-family: Arial;
+    padding: 1rem;
+    font-size:35px ;
+    text-align: center;
+    color: white;
+}
+.btn-outline-primary{
+    
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border: 1rem solid;
+    border-color: blue;
+    border-radius: 1rem;
+    font-size: 20px;
+    outline: none;
+}
+.btn-outline-primary:hover{
+    color: black;
+}
